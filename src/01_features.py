@@ -1,4 +1,8 @@
 # Databricks notebook source
+# /// script
+# [tool.databricks.environment]
+# environment_version = "6"
+# ///
 # MAGIC %md
 # MAGIC # 01 · Feature table
 # MAGIC
@@ -19,6 +23,7 @@
 
 # COMMAND ----------
 
+# Testing CI/CD on Databricks
 dbutils.widgets.text("catalog", "workspace")
 dbutils.widgets.text("schema", "bakehouse_dev")
 #testing
